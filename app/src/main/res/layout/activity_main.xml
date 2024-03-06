@@ -30,7 +30,7 @@
             android:layout_marginTop="20sp"
             tools:ignore="HardcodedText" />
         <Button
-            android:id="@+id/info"
+            android:id="@+id/Inicio"
             android:layout_marginTop="22dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
