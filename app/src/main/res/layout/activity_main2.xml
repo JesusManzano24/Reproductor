@@ -6,4 +6,53 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:background="@drawable/momo"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_marginTop="42dp"
+            android:background="@drawable/nadiesabe" />
+
+        <Button
+            android:id="@+id/play_pause"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="30dp"
+            android:textColor="#FFFF00"
+            android:fontFamily="serif"
+            android:text="@string/play_pause" />
+
+
+
+        <Button
+            android:id="@+id/Siguiente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="0dp"
+            android:text="@string/siguiente" />
+        <Button
+            android:id="@+id/Anterior"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-120dp"
+            android:layout_marginTop="-50dp"
+            android:text="@string/anterior" />
+
+
+
+    </LinearLayout>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
