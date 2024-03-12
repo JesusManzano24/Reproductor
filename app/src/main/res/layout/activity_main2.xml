@@ -19,11 +19,20 @@
 
 
         <ImageView
+            android:id="@+id/image"
             android:layout_width="350dp"
             android:layout_height="350dp"
             android:layout_marginTop="42dp"
             android:background="@drawable/nadiesabe" />
 
+        <TextView
+            android:id="@+id/nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="#FF33CC"
+            android:background="@color/black"
+            android:textSize="70px"/>
         <Button
             android:id="@+id/play_pause"
             android:layout_width="150dp"
