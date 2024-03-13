@@ -4,24 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@drawable/ic_launcher_background">
+    tools:context=".MainActivity">
 
     <LinearLayout
-        android:background="@drawable/kotori"
+        android:background="@drawable/koneko"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical">
         <EditText
+            android:id="@+id/user"
             android:layout_width="220sp"
             android:layout_height="50sp"
+            android:layout_marginTop="200dp"
             android:inputType="textPersonName"
             android:hint="Introduzca su usuario"
             android:background="@color/white"
             tools:ignore="HardcodedText" />
 
         <EditText
+            android:id="@+id/password"
             android:layout_width="220sp"
             android:layout_height="50sp"
             android:inputType="numberPassword"
